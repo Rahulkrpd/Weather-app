@@ -1,0 +1,50 @@
+/* src/components/CurrentWeather.css */
+.current-weather {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.weather-icon {
+    width: 100px;
+}
+
+.temperature {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.temperature span {
+    font-size: 24px;
+}
+
+.location {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.weather-description {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.weather-details {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.detail-icon {
+    width: 24px;
+}
